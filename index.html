@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Test_resources/css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Nav-->
+    <section>
+        <div class="bg"></div>
+       
+        <header>
+            <a href="#" class="logo">FIC Benjamin</a>
+        <!--<ul class="navigation">
+                <li><a href="" class="active"></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>-->
+        </header>
+    
+        <div class="content">
+            <div class="textBox">
+                <h2>Fraternidad Infantil Benjamin</h2>
+                <p>Bienvenido hermanito, aquí encontraras actividades de repaso de los temas vistos en clase.</p>
+                <div id="button">
+                    <a href="./Test.html"><img src="./Test_resources/media/quiz.png"></a>
+                </div>
+            </div>    
+        
+            <div class="imgBox">
+                <img src="./Test_resources/media/biblia.png" class="home">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li data-text="Inicio" class="active"><img src="./Test_resources/media/home.png" onclick="imgSlider('./Test_resources/media/biblia.png');changeBgColor('#fc4a55');myFunction()"></li>
+
+            <li data-text="Test 1"><img src="./Test_resources/media/biblia.png" onclick="imgSlider('./Test_resources/media/test.png');changeBgColor('#ffcc20');myFunction()"></li>
+        </ul>
+    </section>
+    <!--Js-->
+    <script type="text/javascript" src="./Test_resources/js/main.js"></script>
+</body>
+</html>
